@@ -8,11 +8,13 @@ using namespace std;
 class Student
 {
 public:
-    string fullName;
-    int age, courseCount;
-    float scoreCGPA;
+    string* fullName;
+    int* age, *courseCount;
+    float* scoreCGPA;
 
     void initiateAdmission();
+    Student();
+    ~Student();
 };
 
 #endif
